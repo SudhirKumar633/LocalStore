@@ -14,7 +14,7 @@ const app = express(); // ✅ Initialize app FIRST
 
 app.use(express.json()); // Parse incoming JSON
 app.use(cors({
-  origin: "http://localhost:5173", // Vite default port
+  origin: "http://localhost:5173", // Updated to match frontend port
   credentials: true
 }));
 connectDB(); // Connect to MongoDB

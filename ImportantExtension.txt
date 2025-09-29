@@ -1,0 +1,35 @@
+project is a full-stack JavaScript application with the following structure:
+
+Backend (LS_Backend): Node.js with Express, MongoDB (Mongoose), and related libraries.
+Frontend (localstore-frontend): React (JSX), Vite, Tailwind CSS, and Axios for API calls.
+Languages Used:
+
+JavaScript (Node.js for backend, React for frontend)
+CSS (Tailwind and custom styles)
+JSON (for configs and package files)
+HTML (for entry points)
+Recommended VS Code Extensions:
+
+--JavaScript/React:
+
+ES7+ React/Redux/React-Native snippets
+Prettier - Code formatter
+ESLint
+Auto Rename Tag
+Bracket Pair Colorizer 2
+Tailwind CSS IntelliSense
+
+--Node.js/Backend:
+
+npm Intellisense
+DotENV
+MongoDB for VS Code
+
+--General:
+
+Path Intellisense
+GitLens — Git supercharged
+REST Client (for API testing)
+
+
+These extensions will improve your development experience for both frontend and backend in this workspace.

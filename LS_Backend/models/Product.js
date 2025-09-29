@@ -9,6 +9,7 @@ const productSchema = new mongoose.Schema(
     category: { type: String, required: true },
     countInStock: { type: Number, required: true, default: 0 },
     description: { type: String, required: true },
+    owner: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
   },
   {
     timestamps: true, // adds createdAt and updatedAt
